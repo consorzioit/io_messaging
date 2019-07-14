@@ -166,13 +166,6 @@ sub send_message {
 
 	$counter++;
 
-	sub urlencode {
-    		my $s = shift;
-	    	$s =~ s/ /+/g;
-    		$s =~ s/([^A-Za-z0-9\+-])/sprintf("%%%02X", ord($1))/seg;
-	    	return $s;
-	}
-
 }
 
 sub print_now {
