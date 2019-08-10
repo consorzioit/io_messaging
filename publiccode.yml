@@ -1,53 +1,56 @@
-publiccodeYmlVersion: '1.0'
-name: io_servizi_gh.pl 
-releaseDate: '2019-07-12'
+# This repository adheres to the publiccode.yml standard by including this 
+# metadata file that makes public software easily discoverable.
+# More info at https://github.com/italia/publiccode.yml
+
+publiccodeYmlVersion: '0.2'
+name: io_servizi_gh.pl
 url: 'https://github.com/AndreaTironi1/io/'
+releaseDate: '2019-07-12'
 developmentStatus: stable
-softwareType: 'script'
+softwareVersion: '1.0'
 platforms:
   - windows
   - linux
-  - macos
-logo: -
+  - mac
+softwareType: standalone/backend
 categories:
   - mobile-payment
+  - test-management
 maintenance:
-  type: contract
-  contractors:
+  type: community
+  contacts:
     - name: Andrea Tironi
-      website: 'https://www.linkedin.com/in/andrea-tironi-381b6a52/'
-      until: '2077-02-21'
 legal:
-  repoOwner: MIBAC
-  license: GPL-3.0
-  mainCopyrightOwner: MIBAC
-intendedAudience:
-  countries:
-    - it
-  scope:
-    - culture
+  authorsFile: Andrea Tironi
+  license: GPL-3.0-or-later
 localisation:
-  localisationReady: no
+  localisationReady: false
   availableLanguages:
     - it
 it:
-  countryExtensionVersion: '1.0'
   riuso:
-    codiceIPA: m_bac
+    codiceIPA: citsrl
+  piattaforme:
+    spid: true
 description:
   it:
-    genericName: script
     shortDescription: script per invio messaggi ad IO
-    screenshots:
-      - nessuno
+    longDescription: >
+      Lo scopo dello script scritto in perl e' iniziare capire il funzionamento
+      di IO e inviare messaggi al cittadino per i servizi:         pagamento
+      TARI, MENSA, Minigrest e CIE, oltre che un messaggio di testo senza
+      pagamento (BENVENUTO).
+
+      Lo script permette con pochi e semplici passi mediante alcuni campi chiave
+      di inviare messaggi ad IO, in modo da provare la semplifictà
+      dell'interfacciamento e la sua immediatezza di utilizzo, oltre che la
+      completezza di funzionalità (invio messaggi di benvenuto e/o pagamenti).
+
+      La app è stata sviluppata da Andrea Tironi 
     features:
       - invio messaggio IO di BENVENUTO al cittadino
       - invio messaggio IO per pagamento TARI al cittadino
-      - invio messaggio IO per pagamento CIE al cittadino
+      - invio messaggio IO per pagamento CIE al cittadin
       - invio messaggio IO per pagamento MENSA al cittadino
       - invio messaggio IO per pagamento MINIGREST al cittadino
-    longDescription: >-
-        Lo scopo dello script e' iniziare capire il funzionamento di IO e inviare messaggi al cittadino per i servizi: 
-        pagamento TARI, MENSA, Minigrest e CIE.
-        
-        La app è stata sviluppata da Andrea Tironi
+    genericName: Script
