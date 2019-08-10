@@ -1,6 +1,15 @@
 # Codice Perl per IO (io.italia.it)
 
-## Cosa è IO
+## Sommario
+
+- [IO](#IO)
+- [Documentazione](#Documentazione)
+- [Migliorie](#Migliorie)
+- [Contributi](#Contributi)
+- [Autori](#Autori)
+- [Licenza](#licenza)
+
+## IO
 
 Il codice presente nel repository è stato utilizzato nella closed beta di [IO](https://io.italia.it) che ha visto 
 coinvolto il comune di [Ripalta Cremasca](https://www.comune.ripaltacremasca.cr.it),
@@ -16,7 +25,7 @@ Tutte le informazioni su IO per sviluppatori si possono trovare al link
 Come PA, ovvero comune di Ripalta Cremasca, lo scopo era iniziare a erogare servizi
 tramite IO, in particolare: pagamento TARI, MENSA, Minigrest e [CIE](https://www.ipzs.it/ext/carta_identita_elettronica_prodotti.html).
 
-## Il codice
+## Documentazione
 
 Il codice è scritto in perl.
 
@@ -48,7 +57,7 @@ per un dato codice fiscale inviando 2 messaggi appunto con rata singola
 e più rate. Inoltre un altro script fa parsing del dettaglio immobili e invia
 un terzo messaggio con i dettagli degli immobili.
   
-### Eventuali Migliorie
+### Migliorie
 
 Di codice:
 - verificare i parametri di input (lunghezza codice fiscale, valore numerico dove necessario, controllare che il servizio sia nell'elenco di quelli supportati)
@@ -59,7 +68,14 @@ Di riusabilità:
 - i messaggi inviati ai cittadini ppotrebbero essere a loro volta generalizzati/parametrizzati e spostati sempre nel file di configurazione
 - in generale le righe dei messaggi potrebbero essere compattate in una decina visto che la struttura è la medesima, ma cambiano i contenuti
 
+**Contributi**
+Chiunque può inviare Pull Requests e/o file Issues.
 
+**Autori**
+Il codice indicato è stato sviluppato da (Andrea Tironi)[https://www.linkedin.com/in/andrea-tironi-381b6a52/].
+
+**Licenza**
+Ilcodice e' licenziato secondo licenza (CC-0)[https://creativecommons.org/choose/zero/?lang=it].
 
 
 
