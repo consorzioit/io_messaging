@@ -56,10 +56,11 @@ la TARI più complessa è stato fatto uno script a parte che fa parsing sia
 dei codici avviso associate alle pratiche tari (rata singola più rate divise)
 per un dato codice fiscale inviando 2 messaggi appunto con rata singola
 e più rate. Inoltre un altro script fa parsing del dettaglio immobili e invia
-un terzo messaggio con i dettagli degli immobili.
+un terzo messaggio con i dettagli degli immobili. In caso si sia interessati
+anche a questi script aprire una issue con la richiesta.
 
-Nota: lo script non prevede l'invio del promemoria nel messaggio comunque testato
-nella versione dello script per la TARI.
+Nota: lo script non prevede l'invio del promemoria nel messaggio, messo tra
+commenti nella %req
   
 ## Migliorie
 
