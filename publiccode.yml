@@ -1,8 +1,8 @@
 publiccodeYmlVersion: '1.0'
-name: perlIO 
+name: io_servizi_gh.pl 
 releaseDate: '2019-07-12'
-url: 'https://github.com/italia/18app'
-developmentStatus: beta
+url: 'https://github.com/AndreaTironi1/io/'
+developmentStatus: stable
 softwareType: 'script'
 platforms:
   - windows
@@ -41,14 +41,13 @@ description:
     screenshots:
       - nessuno
     features:
-      - invio messaggio IO di benvenuto al cittadino
+      - invio messaggio IO di BENVENUTO al cittadino
       - invio messaggio IO per pagamento TARI al cittadino
       - invio messaggio IO per pagamento CIE al cittadino
       - invio messaggio IO per pagamento MENSA al cittadino
       - invio messaggio IO per pagamento MINIGREST al cittadino
     longDescription: >-
-        Lo scopo dello script e' iniziare capire il funzionamento di IO,
-        e inviare messaggi al cittadino per i servizi: 
+        Lo scopo dello script e' iniziare capire il funzionamento di IO e inviare messaggi al cittadino per i servizi: 
         pagamento TARI, MENSA, Minigrest e CIE.
         
         La app è stata sviluppata da Andrea Tironi
