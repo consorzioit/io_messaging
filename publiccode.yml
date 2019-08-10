@@ -3,7 +3,7 @@
 # More info at https://github.com/italia/publiccode.yml
 
 publiccodeYmlVersion: '0.2'
-name: IO_Messaging
+name: io_servizi_gh.pl
 url: 'https://github.com/AndreaTironi1/io/'
 releaseDate: '2019-07-12'
 developmentStatus: stable
@@ -41,10 +41,12 @@ description:
       TARI, MENSA, Minigrest e CIE, oltre che un messaggio di testo senza
       pagamento (BENVENUTO).
 
+
       Lo script permette con pochi e semplici passi mediante alcuni campi chiave
       di inviare messaggi ad IO, in modo da provare la semplifictà
       dell'interfacciamento e la sua immediatezza di utilizzo, oltre che la
       completezza di funzionalità (invio messaggi di benvenuto e/o pagamenti).
+
 
       La app è stata sviluppata da Andrea Tironi 
     features:
@@ -54,3 +56,4 @@ description:
       - invio messaggio IO per pagamento MENSA al cittadino
       - invio messaggio IO per pagamento MINIGREST al cittadino
     genericName: Script
+logo: 'https://www.consorzioit.net/sites/default/files/logo.png'
