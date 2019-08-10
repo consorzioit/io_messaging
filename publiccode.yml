@@ -1,0 +1,54 @@
+publiccodeYmlVersion: '1.0'
+name: perlIO 
+releaseDate: '2019-07-12'
+url: 'https://github.com/italia/18app'
+developmentStatus: beta
+softwareType: 'script'
+platforms:
+  - windows
+  - linux
+  - macos
+logo: -
+categories:
+  - mobile-payment
+maintenance:
+  type: contract
+  contractors:
+    - name: Andrea Tironi
+      website: 'https://www.linkedin.com/in/andrea-tironi-381b6a52/'
+      until: '2077-02-21'
+legal:
+  repoOwner: MIBAC
+  license: GPL-3.0
+  mainCopyrightOwner: MIBAC
+intendedAudience:
+  countries:
+    - it
+  scope:
+    - culture
+localisation:
+  localisationReady: no
+  availableLanguages:
+    - it
+it:
+  countryExtensionVersion: '1.0'
+  riuso:
+    codiceIPA: m_bac
+description:
+  it:
+    genericName: script
+    shortDescription: script per invio messaggi ad IO
+    screenshots:
+      - nessuno
+    features:
+      - invio messaggio IO di benvenuto al cittadino
+      - invio messaggio IO per pagamento TARI al cittadino
+      - invio messaggio IO per pagamento CIE al cittadino
+      - invio messaggio IO per pagamento MENSA al cittadino
+      - invio messaggio IO per pagamento MINIGREST al cittadino
+    longDescription: >-
+        Lo scopo dello script e' iniziare capire il funzionamento di IO,
+        e inviare messaggi al cittadino per i servizi: 
+        pagamento TARI, MENSA, Minigrest e CIE.
+        
+        La app è stata sviluppata da Andrea Tironi
