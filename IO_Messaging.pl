@@ -140,6 +140,7 @@ sub send_message {
 				subject => $subject,
 				markdown => $message,
 	        		payment_data => $payment_data
+				# due_date => $due_date (promemoria, data in formato gg/mm/aaaa - 12/07/2019 )
       			}
 		)
 	} else {
