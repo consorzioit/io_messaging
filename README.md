@@ -56,6 +56,9 @@ dei codici avviso associate alle pratiche tari (rata singola più rate divise)
 per un dato codice fiscale inviando 2 messaggi appunto con rata singola
 e più rate. Inoltre un altro script fa parsing del dettaglio immobili e invia
 un terzo messaggio con i dettagli degli immobili.
+
+Nota: lo script non prevede l'invio del promemoria nel messaggio comunque testato
+nella versione dello script per la TARI.
   
 ## Migliorie
 
