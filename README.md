@@ -10,6 +10,9 @@ Lo scopo della partecipazione alla closed beta, come ConsorzioIT, era quello di 
 il funzionamento di IO, l'applicazione che vuole cambiare il paradigma con 
 cui cittadino e PA comunicano, da PA centrino a cittadino centrino.
 
+Tutte le informazioni su IO per sviluppatori si possono trovare al link
+[IO Sviluppatori](https://io.italia.it/sviluppatori/) incluso di sorgenti.
+
 Come PA, ovvero comune di Ripalta Cremasca, lo scopo era iniziare a erogare servizi
 tramite IO, in particolare: pagamento TARI, MENSA, Minigrest e [CIE](https://www.ipzs.it/ext/carta_identita_elettronica_prodotti.html).
 
