@@ -16,14 +16,15 @@ coinvolto il comune di [Ripalta Cremasca](https://www.comune.ripaltacremasca.cr.
 con partner tecnologico [ConsorzioIT](https://www.consorzioit.net).
 
 Lo scopo della partecipazione alla closed beta, come ConsorzioIT, era quello di capire
-il funzionamento di IO, l'applicazione che vuole cambiare il paradigma con 
+il funzionamento di IO, l'app per smartphone che vuole cambiare il paradigma con 
 cui cittadino e PA comunicano, da PA centrino a cittadino centrino.
 
 Tutte le informazioni su IO per sviluppatori si possono trovare al link
 [IO Sviluppatori](https://io.italia.it/sviluppatori/) incluso i sorgenti.
 
 Come PA, ovvero comune di Ripalta Cremasca, lo scopo era iniziare a erogare servizi
-tramite IO, in particolare: pagamento TARI, MENSA, Minigrest e [CIE](https://www.ipzs.it/ext/carta_identita_elettronica_prodotti.html).
+tramite IO, in particolare: pagamento TARI, MENSA, Minigrest e [CIE](https://www.ipzs.it/ext/carta_identita_elettronica_prodotti.html),
+inviando messaggi ai cittadini tramite l'app IO.
 
 ## Documentazione
 
