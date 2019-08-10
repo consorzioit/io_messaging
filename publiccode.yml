@@ -3,7 +3,7 @@
 # More info at https://github.com/italia/publiccode.yml
 
 publiccodeYmlVersion: '0.2'
-name: io_servizi_gh.pl
+name: IOMessaging.pl
 url: 'https://github.com/AndreaTironi1/io/'
 releaseDate: '2019-07-12'
 developmentStatus: stable
