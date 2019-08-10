@@ -41,7 +41,7 @@ esempi di utilizzo
 * codice_fiscale: si spiega da solo, necessario per comunicare a IO chi è la persona da contattare
 * importo: valore in euro (viene moltiplicato per 100 nel codice, IO accetta solo interi)
 * numero_avviso: numero bollettino [pagoPA](https://www.agid.gov.it/it/piattaforme/pagopa)
-* servizio: un servizio tra CIE | MENSA | TARI | MINIGREST | BENVENUTO
+* servizio: un servizio tra CIE | MENSA | TARI | MINIGREST | BENVENUTO 
 
 esempi di comandi
 
