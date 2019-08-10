@@ -72,7 +72,7 @@ Di riusabilità:
 Chiunque può inviare Pull Requests e/o file Issues.
 
 ## Autori
-Il codice indicato è stato sviluppato da (Andrea Tironi)[https://www.linkedin.com/in/andrea-tironi-381b6a52/].
+Il codice è stato sviluppato da (Andrea Tironi)[https://www.linkedin.com/in/andrea-tironi-381b6a52/].
 
 ## Licenza
 Ilcodice e' licenziato secondo licenza (CC-0)[https://creativecommons.org/choose/zero/?lang=it].
