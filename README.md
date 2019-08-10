@@ -76,8 +76,6 @@ Di riusabilità:
 - i messaggi inviati ai cittadini ppotrebbero essere a loro volta generalizzati/parametrizzati e spostati sempre nel file di configurazione
 - in generale le righe dei messaggi potrebbero essere compattate in una decina visto che la struttura è la medesima, ma cambiano i contenuti
 
-Grazie a [Marco Tironi](https://www.linkedin.com/in/marco-tironi-77406958/) per i consigli sulle migliorie.
-
 ## Contributi
 Chiunque può inviare Pull Requests e/o file Issues.
 
@@ -86,6 +84,8 @@ Il codice è stato sviluppato da [Andrea Tironi](https://www.linkedin.com/in/and
 
 ## Licenza
 Il codice e' licenziato secondo licenza [CC-0](https://creativecommons.org/choose/zero/?lang=it).
+
+
 
 
 
