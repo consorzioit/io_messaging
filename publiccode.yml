@@ -43,8 +43,8 @@ description:
 
 
       Lo script permette con pochi e semplici passi mediante alcuni campi chiave
-      di inviare messaggi ad IO, in modo da provare la semplifictà
-      dell'interfacciamento e la sua immediatezza di utilizzo, oltre che la
+      di inviare messaggi ad IO, in modo da provare la semplicità
+      dell'interfacciamento ad IO e la sua immediatezza di utilizzo, oltre che la
       completezza di funzionalità (invio messaggi di benvenuto e/o pagamenti).
 
 
