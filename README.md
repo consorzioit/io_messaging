@@ -36,7 +36,7 @@ che contengano pagamenti (MENSA,TARI,CIE,MiniGrest) o messaggi informativi (BENV
 
 esempi di utilizzo
 
-**perl io_servizi_gh.pl codice_fiscale importo numero_avviso servizio**
+**perl IO_Messaging.pl codice_fiscale importo numero_avviso servizio**
   
 * codice_fiscale: si spiega da solo, necessario per comunicare a IO chi è la persona da contattare
 * importo: valore in euro (viene moltiplicato per 100 nel codice, IO accetta solo interi)
@@ -45,11 +45,11 @@ esempi di utilizzo
 
 esempi di comandi
 
-* perl io_servizi_gh.pl TRNNDR99B21G158X 0 0 BENVENUTO 
-* perl io_servizi_gh.pl TRNNDR99B21G158X 20 123456789012345678 CIE
-* perl io_servizi_gh.pl TRNNDR99B21G158X 50 123456789012345678 MENSA
-* perl io_servizi_gh.pl TRNNDR99B21G158X 60 123456789012345678 MINIGREST
-* perl io_servizi_gh.pl TRNNDR99B21G158X 150 123456789012345678 TARI 
+* perl IO_Messaging.pl TRNNDR99B21G158X 0 0 BENVENUTO 
+* perl IO_Messaging.pl TRNNDR99B21G158X 20 123456789012345678 CIE
+* perl IO_Messaging.pl TRNNDR99B21G158X 50 123456789012345678 MENSA
+* perl IO_Messaging.pl TRNNDR99B21G158X 60 123456789012345678 MINIGREST
+* perl IO_Messaging.pl TRNNDR99B21G158X 150 123456789012345678 TARI 
 
 Nota: per la TARI lo script invia un pagamento come per gli altri servizi. Essendo 
 la TARI più complessa è stato fatto uno script a parte che fa parsing sia
