@@ -21,8 +21,9 @@ maintenance:
   contacts:
     - name: Andrea Tironi
 legal:
-  authorsFile: Andrea Tironi
+  authorsFile: AUTHORS
   license: GPL-3.0-or-later
+  mainCopyrightOwner: Consorzio Informatica e Territorio S.P.A
 localisation:
   localisationReady: false
   availableLanguages:
@@ -37,7 +38,7 @@ description:
     shortDescription: script per invio messaggi ad IO
     longDescription: >
       Lo scopo dello script scritto in perl e' iniziare capire il funzionamento
-      di IO e inviare messaggi al cittadino per i servizi:         pagamento
+      di IO e inviare messaggi al cittadino per i servizi: pagamento
       TARI, MENSA, Minigrest e CIE, oltre che un messaggio di testo senza
       pagamento (BENVENUTO).
 
@@ -47,7 +48,6 @@ description:
       dell'interfacciamento ad IO e la sua immediatezza di utilizzo, oltre che la
       completezza di funzionalità (invio messaggi di benvenuto e/o pagamenti).
 
-
       La app è stata sviluppata da Andrea Tironi 
     features:
       - invio messaggio IO di BENVENUTO al cittadino
@@ -56,4 +56,4 @@ description:
       - invio messaggio IO per pagamento MENSA al cittadino
       - invio messaggio IO per pagamento MINIGREST al cittadino
     genericName: Script
-logo: 'https://www.consorzioit.net/sites/default/files/logo.png'
+logo: 'images/logo.png' 
