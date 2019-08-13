@@ -21,7 +21,7 @@ maintenance:
   contacts:
     - name: Andrea Tironi
 legal:
-  authorsFile: Andrea Tironi
+  authorsFile: AUTHORS
   license: GPL-3.0-or-later
 localisation:
   localisationReady: false
