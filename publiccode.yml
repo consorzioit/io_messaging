@@ -48,12 +48,16 @@ description:
       dell'interfacciamento ad IO e la sua immediatezza di utilizzo, oltre che la
       completezza di funzionalità (invio messaggi di benvenuto e/o pagamenti).
 
-      La app è stata sviluppata da Andrea Tironi 
+
+      Lo script non è ottimizzato, serve solo al suo scopo.
+      
+
+      Lo script è stato sviluppata da Andrea Tironi.
     features:
-      - invio messaggio IO di BENVENUTO al cittadino
-      - invio messaggio IO per pagamento TARI al cittadino
-      - invio messaggio IO per pagamento CIE al cittadin
-      - invio messaggio IO per pagamento MENSA al cittadino
-      - invio messaggio IO per pagamento MINIGREST al cittadino
+      - Invio di un messaggio ad IO per il BENVENUTO al cittadino
+      - Invio di un messaggio ad IO per pagamento TARI al cittadino
+      - Invio di un messaggio ad IO per pagamento CIE al cittadin
+      - Invio di un messaggio ad IO per pagamento MENSA al cittadino
+      - Invio di un messaggio ad IO per pagamento MINIGREST al cittadino
     genericName: Script
 logo: 'images/logo.png' 
